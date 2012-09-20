@@ -9,7 +9,7 @@ Dir['ext/*.jar'].each { |jar| require jar }
 
 Gem::Specification.new do |s|
   s.name        = 'commons-httpclient-rb'
-  s.version     = HttpClient::VERSION
+  s.version     = ApacheCommons::VERSION
   s.platform    = Gem::Platform::RUBY
   s.authors     = ['Daniel Gaiottino']
   s.email       = ['daniel@burtcorp.com']

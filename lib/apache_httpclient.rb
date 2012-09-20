@@ -13,7 +13,7 @@ module Apache
   import org.apache.commons.httpclient.methods.PostMethod
 end
 
-module Commons
+module ApacheCommons
   class RequestTimeout < Exception; end
   
   class HttpStatus < Apache::HttpStatus; end
